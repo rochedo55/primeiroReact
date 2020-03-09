@@ -15,7 +15,7 @@ class Quiz extends React.Component {
     ]
     render(){
         return <div>
-            <Questions></Questions>
+            <Questions statement={this.questions[0].statement} options={this.questions[0].options}></Questions>
             <Results></Results>
         </div>
 
